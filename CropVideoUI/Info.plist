@@ -52,8 +52,6 @@
 	<key>UISupportedInterfaceOrientations</key>
 	<array>
 		<string>UIInterfaceOrientationPortrait</string>
-		<string>UIInterfaceOrientationLandscapeLeft</string>
-		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
 	<key>UISupportedInterfaceOrientations~ipad</key>
 	<array>
@@ -62,5 +60,22 @@
 		<string>UIInterfaceOrientationLandscapeLeft</string>
 		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
+    
+    <!-- Limited Photos -->
+    <key>PHPhotoLibraryPreventAutomaticLimitedAccessAlert</key>
+    <true/>
+    <!-- For Camera -->
+    <key>NSCameraUsageDescription</key>
+    <string>$(PRODUCT_NAME) You can take photos to document your job.</string>
+    <!-- For Photo Library -->
+    <key>NSPhotoLibraryUsageDescription</key>
+    <string>$(PRODUCT_NAME) You can select photos to attach to reports.</string>
+    
+    
+    <key>NSMicrophoneUsageDescription</key>
+    <string>$(PRODUCT_NAME) wants to record sound.</string>
+    
+    
+    
 </dict>
 </plist>
